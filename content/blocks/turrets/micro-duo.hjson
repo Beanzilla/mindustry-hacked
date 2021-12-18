@@ -5,11 +5,11 @@ description: A upgraded Duo with more range, higher damage, just costs more copp
 health: 1500
 size: 1
 
-reloadTime: 8
-range: 360
-inaccuracy: 1
+reloadTime: 50
+range:  6969
+inaccuracy: 0
 rotateSpeed: 16
-shots: 2
+shots: 10
 alternate: true
 targetGround: true
 targetAir: true
@@ -18,12 +18,12 @@ ammoUseEffect: casing1
 
 ammoTypes: {
     copper: {
-        speed: 9
-        damage: 48
+        speed: 50
+        damage: 999999999999
         status: melting
         shootEffect: shootSmall
         smokeEffect: shootSmallSmoke
-        ammoMultiplier: 1
+        ammoMultiplier: 200
         reloadMultiplier: 1.3
         homingPower: 5
         homingRange: 16
@@ -64,13 +64,13 @@ ammoTypes: {
 }
 
 requirements: [
-    copper/500
+    copper/1
 ]
 
 category: turret
 research: {
     parent: duo
     requirements: [
-        copper/2000
+        copper/1
     ]
 }
