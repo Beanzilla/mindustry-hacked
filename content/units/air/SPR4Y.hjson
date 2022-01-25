@@ -1,11 +1,11 @@
 type: flying
 
-name: V3CT0R
-description: Fast, Agile, and quite Deadly.
+name: SPR4Y
+description: Quantity over quality will work only sometimes.
 
 flying: true
 
-speed: 512
+speed: 64
 accel: 0.12
 drag: 0.12
 rotateSpeed: 12.0
@@ -26,12 +26,12 @@ weapons: [
     rotate: false
     rotateSpeed: 0.0
     recoil: 0
-    reload: 10
+    reload: 1000
     shootSound: shoot
     shake: 0
     bullet: {
       type: BasicBulletType
-      damage: 64
+      damage: 6
       lifetime: 32
       speed: 12.5
       status: melting

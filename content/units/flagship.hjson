@@ -4,34 +4,34 @@ description: The flagship of units.
 
 flying: true
 
-speed: 4.5
+speed: 45.5
 accel: 0.12
 drag: 0.12
-rotateSpeed: 12.0
+rotateSpeed: 128.0
 rotateShooting: true
 
 health: 16000
 lightColor: 00ff00
 
-range: 128
-miningRange: 128
+range: 512
+miningRange: 512
 
-armor: 16.0
+armor: 512.0
 
-maxRange: 256
+maxRange: 512
 
 isCounted: false
 
-commandLimit: 32
-commandRadius: 256
+commandLimit: 1024
+commandRadius: 1024
 
 mineTier: 99
 
-itemCapacity: 1000
-ammoCapacity: 1000
+itemCapacity: 100000
+ammoCapacity: 100000
 
-buildSpeed: 16.0
-mineSpeed: 32.0
+buildSpeed: 256.0
+mineSpeed: 512.0
 
 weapons: [
   {
@@ -43,16 +43,16 @@ weapons: [
     rotate: false
     rotateSpeed: 0.0
     recoil: 0
-    reload: 8
+    reload: 1
     shootSound: shoot
     shake: 0
     bullet: {
       type: BasicBulletType
-      damage: 64
-      lifetime: 32
-      speed: 12.5
+      damage: 512
+      lifetime: 2048
+      speed: 128.0
       status: melting
-      healPercent: 1.5
+      healPercent: 100
       hittable: false // Nope, Anti-Defensives won't work
       reflectable: false // Nope, Reflective tech won't work
       absorbable: false // Nope, It like goes thru it.
